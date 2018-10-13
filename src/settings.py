@@ -1,9 +1,3 @@
 DEBUG = True
 
-MONGO = {
-    'DATABASE': 'database-1',
-    'HOST': 'localhost',
-    'PORT': 27017,
-    'USERNAME': '',
-    'PASSWORD': ''
-}
+MONGO = 'mongodb://admin:admin123@ds119113.mlab.com:19113/ecommerce'
